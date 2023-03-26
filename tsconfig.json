@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig-checks.json",
+  "compilerOptions": {
+    "outDir": "public/scripts",
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "allowJs": true
+  },
+  "include": ["index.ts"]
+}
